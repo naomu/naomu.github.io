@@ -80,6 +80,108 @@ sections:
 
     design:
       columns: '2'
+  - block: experience
+    content:
+      title: Education
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: MSc Bioinformatics
+          company: University of Edinburgh
+#           company_url: ''
+          company_logo: edinburgh
+          # location: Gloucestershire
+          date_start: '2021-09-20'
+          date_end: '2022-09-02'
+          description: |2-
+              Achieved Distinction overall & in each module.
+
+              Dissertation: The origins & fate of fetal-like cells in inflammatory bowel disease & colorectal cancer (82%)
+
+              Modules:
+              * Bioinformatics Programming & Systems Management
+              * Statistics & Data Analysis
+              * Practical Systems Biology
+              * Bioinformatics Algorithms
+              * Comparative & Evolutionary Genomics
+              * Functional Genomic Technologies
+              * Introduction to Website & Database Design for Drug Discovery
+              * Next Generation Genomics
+              * Research Proposal
+        - title: BA Natural Sciences
+          company: Gonville & Caius College, University of Cambridge
+#           company_url: ''
+          company_logo: gc
+          # location: Gloucestershire
+          date_start: '2008-10-04'
+          date_end: '2011-06-30'
+          description: |2-
+              Dissertation: Tuning A-type potassium channel kinetics for silent gain modulation
+
+              Modules:
+              Part II (Neuroscience):
+              * Molecular Neuroscience
+              * Local Circuits & Neural Networks
+              * Control of Action
+              * Central Mechanisms of Sensation & Behaviour
+
+              Part 1b
+              * Neurobiology
+              * Pathology (with submodule on Oncology)
+              * Physiology
+
+              Part 1a
+              * Biology of Cells
+              * Chemistry
+              * Physiology of Organisms
+              * Elementary Mathematics for Biologists
+
+    design:
+      columns: '2'
+  - block: experience
+    content:
+      title: Research Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: MSc Dissertation - The origins & fate of fetal-like cells in inflammatory bowel disease & colorectal cancer
+          company: Institute of Genetics & Cancer, University of Edinburgh
+          company_logo: edinburgh
+          date_start: '2022-05-01'
+          date_end: '2022-09-02'
+          description: |2-
+              * A population of developmentally primitive, fetal-like cells known to be associated with Inflammatory Bowel Disease and Colorectal Cancer appears to arise from reprogrammed intestinal epithelial cells (IECs). It is unclear which types of IECs are capable of being reprogrammed into this state or what becomes of these cells on the resolution of inflammation.
+              * Designed a single cell RNA-seq analysis pipeline to identify disease-associated cells by integrating data from IBD model and wild type mice. Applied lineage analysis tools (CellRank) to make inferences about this population.
+              * Successfully identified a putative fetal-like cell population and an associated signature within the data. Results indicated that plasticity to transition into the fetal-like state was not limited to a specific type of IEC but provided no evidence as to the fate of the cells.
+              * Generated hypotheses for further testing by the lab, including the role of putative drivers of transitions to the fetal-like state such as reactive oxygen species-related transcription factors DUOX2 and DUOXA2.
+
+        - title: BA dissertation - Tuning A-type potassium channel kinetics for silent gain modulation
+          company: Department of Pharmacology, University of Cambridge
+#           company_url: ''
+          company_logo: cambridge
+          # location: Gloucestershire
+          date_start: '2008-10-04'
+          date_end: '2011-06-30'
+          description: |2-
+              * Silent modulation of gain (the relationship between input current and output firing rate) enables a neuron to participate in neural computation and processing without altering its resting behaviour.
+              * Adapted a MATLAB ODE-based model neuron to investigate gain and intrinsic firing for a range of biologically plausible values of time constant of activation/inactivation and voltage dependence of inactivation.
+              * Results suggest that tuning A-type channel inactivation voltage can silently modulate gain & offer a potential mechanism for A-type channel tuning by neuromodulators observed elsewhere.
+              * Project was adapted into a paper.
+
+    design:
+      columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -108,60 +210,60 @@ sections:
           url: https://aws.amazon.com/certification/certified-solutions-architect-associate/?ch=tile&tile=getstarted 
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: <a href="/post">Recent Posts</a>
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: <a href="/project">Projects</a>
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: <a href="/post">Recent Posts</a>
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '1'
+  # - block: portfolio
+  #   id: projects
+  #   content:
+  #     title: <a href="/project">Projects</a>
+  #     filters:
+  #       folders:
+  #         - project
+  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  #     default_button_index: 0
       # Filter toolbar (optional).
       # Add or remove as many filters (`filter_button` instances) as you like.
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: High-throughput sequencing
-          tag: HTS
-        - name: Other
-          tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+    #   buttons:
+    #     - name: All
+    #       tag: '*'
+    #     - name: High-throughput sequencing
+    #       tag: HTS
+    #     - name: Other
+    #       tag: Demo
+    # design:
+    #   # Choose how many columns the section has. Valid values: '1' or '2'.
+    #   columns: '1'
+    #   view: showcase
+    #   # For Showcase view, flip alternate rows?
+    #   flip_alt_rows: true
 #  - block: markdown
 #    content:
 #      title: Gallery
@@ -173,13 +275,13 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: <a href="publication">Publications</a>
       filters:
         folders:
           - publication
-        featured_only: true
+        featured_only: false
     design:
-      columns: '2'
+      columns: '1'
       view: list
 #  - block: collection
 #    content:
