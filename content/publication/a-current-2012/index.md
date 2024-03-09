@@ -28,8 +28,13 @@ abstract: Modulation of stimulus-response gain and stability of spontaneous (uns
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus #ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Animals,Humans,Membrane Potentials,{Models, Neurological},Neurons,{Potassium Channels, Voltage-Gated
-featured: false
+- Animals
+- Humans
+- Membrane Potentials
+- Models, Neurological
+- Neurons
+- Potassium Channels, Voltage-Gated
+featured: true
 
 # links:
 # - name: ""
