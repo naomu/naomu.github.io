@@ -30,8 +30,11 @@ bio: Currently looking for opportunities to apply my bioinformatics & computatio
 # Interests to show in About widget
 interests:
   - Comparative genomics
-  -  
-  - Single Cell RNA-seq
+  - Evolutionary genomics
+  - Software development
+  - High throughput sequencing
+  - Cancer
+  - Neuroscience
 
 # Education to show in About widget
 education:
@@ -120,6 +123,6 @@ social:
 highlight_name: true
 ---
 
-Naomi M M is a data consultant & an aspiring computational biologist. After returning to education for her Master's in Bioinformatics, she hopes to move into a career in biological research & put her technical & consulting skills to use solving biological problems. 
+Naomi M M is a data consultant & an aspiring computational biologist. After returning to education for her master's in bioinformatics, she hopes to move into a career in biological research & put her technical & consulting skills to use solving biological problems. 
 
 {style="text-align: justify;"}
