@@ -157,7 +157,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: MSc Dissertation - The origins & fate of fetal-like cells in inflammatory bowel disease & colorectal cancer
-          company: Institute of Genetics & Cancer, University of Edinburgh
+          company: Myant Lab, Institute of Genetics & Cancer, University of Edinburgh
           company_logo: edinburgh
           date_start: '2022-05-01'
           date_end: '2022-09-02'
@@ -168,12 +168,12 @@ sections:
               * Generated hypotheses for further testing by the lab, including the role of putative drivers of transitions to the fetal-like state such as reactive oxygen species-related transcription factors DUOX2 and DUOXA2.
 
         - title: BA dissertation - Tuning A-type potassium channel kinetics for silent gain modulation
-          company: Department of Pharmacology, University of Cambridge
+          company: Burdakov Lab, Department of Pharmacology, University of Cambridge
 #           company_url: ''
           company_logo: cambridge
           # location: Gloucestershire
-          date_start: '2008-10-04'
-          date_end: '2011-06-30'
+          date_start: '2011-02-01'
+          date_end: '2011-05-01'
           description: |2-
               * Silent modulation of gain (the relationship between input current and output firing rate) enables a neuron to participate in neural computation and processing without altering its resting behaviour.
               * Adapted a MATLAB ODE-based model neuron to investigate gain and intrinsic firing for a range of biologically plausible values of time constant of activation/inactivation and voltage dependence of inactivation.
